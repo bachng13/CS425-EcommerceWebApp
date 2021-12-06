@@ -10,5 +10,32 @@ nav{
   align-items: center;
   min-height: 8vh;
   font-family: 'Roboto Mono', monospace;
-  
+  background-color: antiquewhite;
+}
+
+.logo{
+  color: rgb(36, 32, 32);
+  text-transform: uppercase;
+  letter-spacing: 6 px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.links{
+  display: flex;
+  /* background-color:red; */
+  justify-content: space-around;
+  width: 25%;
+}
+
+.links a{
+  color: rgb(36, 32, 32);
+  font-family: 'Roboto Mono', monospace;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: 17px;
+}
+
+.links li{
+  list-style: none;
 }
