@@ -31,7 +31,7 @@ showSlideManual(imgIndex);
 function nextImg(n) {
   showSlideManual(imgIndex += n);
 }
-
+ 
 function currentImg(n) {
   showSlideManual(imgIndex = n);
 }
@@ -56,7 +56,6 @@ function showSlideManual(n) {
   dots[imgIndex - 1].className += " active";
 }
 
-var imgIndex = 0;
 showSlidesAuto();
 
 function showSlidesAuto() {

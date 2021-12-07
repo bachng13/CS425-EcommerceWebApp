@@ -16,28 +16,36 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!--  -->
 
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap" rel="stylesheet"> 
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
 
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap" rel="stylesheet"> 
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="C:\Users\User 1\Documents\GitHub\CS425-EcommerceWebApp\css\style.css"
     />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> -->
   </head>
-  <body>    
+  <body>
     <nav>
       <div class="logo">
-        <h4>E-MALL</h4>
+        <h4><a href="index.html">E-MALL</a></h4>
       </div>
       <ul class="links">
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="store.html">Store</a></li>
         <li><a href="checkout.html">Checkout</a></li>
+        <li><a href="logins.html">Sign In</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
       </ul>
       <div class="sideMenu">
         <div class="line1"></div>
@@ -47,50 +55,89 @@
     </nav>
 
     <div class="slide-container">
-        <div class="fadingSlides fade">
-            <img src="images\headphone.jpg" >
-        </div>
-        <div class="fadingSlides fade">
-            <img src="images\boxwater.jpg" alt="">
-        </div>
-        <div class="fadingSlides fade">
-            <img src="images\camera.jpg" alt="">
-        </div>
-        <div class="fadingSlides fade">
-            <img src="images\devin-avery-BRVqq2uak4E-unsplash.jpg" alt="">
-        </div>
-        <div class="fadingSlides fade">
-            <img src="images\mikkel-bech-yjAFnkLtKY0-unsplash.jpg" alt="">
-        </div>
-        <div class="fadingSlides fade">
-            <img src="images\rachit-tank-2cFZ_FB08UM-unsplash.jpg" alt="">
-        </div>
-        <div class="fadingSlides fade">
-            <img src="images\revolt-164_6wVEHfI-unsplash.jpg" alt="">
-        </div>
+      <div class="fadingSlides fade">
+        <img src="images\rodion-kutsaev-tras3_pvEic-unsplash.jpg" />
+      </div>
+      <div class="fadingSlides fade">
+        <img src="images\boxwater.jpg" alt="" />
+      </div>
+      <div class="fadingSlides fade">
+        <img src="images\camera.jpg" alt="" />
+      </div>
+      <div class="fadingSlides fade">
+        <img src="images\devin-avery-BRVqq2uak4E-unsplash.jpg" alt="" />
+      </div>
+      <div class="fadingSlides fade">
+        <img src="images\mikkel-bech-yjAFnkLtKY0-unsplash.jpg" alt="" />
+      </div>
+      <div class="fadingSlides fade">
+        <img src="images\rachit-tank-2cFZ_FB08UM-unsplash.jpg" alt="" />
+      </div>
+      <div class="fadingSlides fade">
+        <img src="images\revolt-164_6wVEHfI-unsplash.jpg" alt="" />
+      </div>
 
-        <a class="prevSlide" onclick="nextImg(-1)">&#10094;</a>
-        <a class="nextSlide" onclick="nextImg(1)">&#10095;</a>
-
+      <a class="prevSlide" onclick="nextImg(-1)">&#10094;</a>
+      <a class="nextSlide" onclick="nextImg(1)">&#10095;</a>
     </div>
     <!-- dots below images -->
     <div class="imageDots">
-        <span class="dots" onclick="currentImg(1)"> </span>
-        <span class="dots" onclick="currentImg(2)"> </span>
-        <span class="dots" onclick="currentImg(3)"> </span>
-        <span class="dots" onclick="currentImg(4)"> </span>
-        <span class="dots" onclick="currentImg(5)"> </span>
-        <span class="dots" onclick="currentImg(6)"> </span>
-        <span class="dots" onclick="currentImg(7)"> </span>
+      <span class="dots" onclick="currentImg(1)"> </span>
+      <span class="dots" onclick="currentImg(2)"> </span>
+      <span class="dots" onclick="currentImg(3)"> </span>
+      <span class="dots" onclick="currentImg(4)"> </span>
+      <span class="dots" onclick="currentImg(5)"> </span>
+      <span class="dots" onclick="currentImg(6)"> </span>
+      <span class="dots" onclick="currentImg(7)"> </span>
     </div>
-    <br>
-      
-    <h2 class="brands">Featured Brands</h2>
-    <div>
 
+    <br />
+
+    <h2 class="info">What We Do</h2>
+    <div class="middle-container">
+      <table class="infoTable" align="center" style="width: 100%;">
+        <tr class="row">
+          <td>
+            <p>
+              Lorem ipsum dolor sit amet consectetur <br />
+              adipisicing elit. Eveniet quo similique <br />
+              adipisci et. Saepe, fugit debitis repellat <br />
+              illo enim fugiat atque. Provident assumenda <br />
+              tempore optio ex magni? Facere, dolor beatae!
+            </p>
+          </td>
+          <td>
+            <img src="images/cardboard_box.jpg" width="200px" height="200px" />
+          </td>
+        </tr>
+        <br />
+        <br />
+        <tr class="row">
+          <td><img src="images/cart.webp" alt="" width="200px" height="200px"/></td>
+          <td>
+            <p>
+              Lorem ipsum dolor sit amet consectetur <br />
+            adipisicing elit. Eveniet quo similique <br />
+            adipisci et. Saepe, fugit debitis repellat <br />
+            illo enim fugiat atque. Provident assumenda <br />
+            tempore optio ex magni? Facere, dolor beatae!
+            </p>
+            
+          </td>
+        </tr>
+        
+      </table>
+      <br>
+      <hr>
+    </div>
+    <br />
+
+    
+    <h2 class="brands">Features</h2>
+    <div class="brandIcons">
+      <span></span>
     </div>
     <script src="app.js"></script>
-
   </body>
   <footer>Copyright &copy;</footer>
 </html>
