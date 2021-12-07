@@ -10,7 +10,14 @@ nav{
   align-items: center;
   min-height: 8vh;
   font-family: 'Montserrat', sans-serif;
+<<<<<<< Updated upstream
   background-color: antiquewhite;
+=======
+  background-color: rgb(95, 142, 241);
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+>>>>>>> Stashed changes
 }
 
 .logo{
@@ -199,4 +206,19 @@ img{
   to{
     opacity: 1;
   }
+<<<<<<< Updated upstream
+=======
+}
+
+h2{
+  text-align: center;
+  text-shadow: 5px;
+
+}
+
+footer{
+  text-align: right;
+  margin-right: 10px;
+  margin-bottom: 10px;
+>>>>>>> Stashed changes
 }
