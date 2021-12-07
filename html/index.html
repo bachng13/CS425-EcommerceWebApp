@@ -16,11 +16,11 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap"
       rel="stylesheet"
     />
-<<<<<<< Updated upstream
-=======
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap" rel="stylesheet"> 
->>>>>>> Stashed changes
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap" rel="stylesheet"> 
     <link
       rel="stylesheet"
       href="C:\Users\User 1\Documents\GitHub\CS425-EcommerceWebApp\css\style.css"
@@ -47,21 +47,41 @@
     </nav>
 
     <div class="slide-container">
-        <div class=fadingSlides>
-            <img src="C:\Users\User 1\Documents\GitHub\CS425-EcommerceWebApp\images\c-d-x-PDX_a_82obo-unsplash.jpg" style="width:100%">
+        <div class="fadingSlides fade">
+            <img src="images\headphone.jpg" style="width:100%">
+        </div>
+        <div class="fadingSlides fade">
+            <img src="images\boxwater.jpg" alt="">
+        </div>
+        <div class="fadingSlides fade">
+            <img src="images\camera.jpg" alt="">
+        </div>
+        <div class="fadingSlides fade">
+            <img src="images\devin-avery-BRVqq2uak4E-unsplash.jpg" alt="">
+        </div>
+        <div class="fadingSlides fade">
+            <img src="images\mikkel-bech-yjAFnkLtKY0-unsplash.jpg" alt="">
+        </div>
+        <div class="fadingSlides fade">
+            <img src="images\rachit-tank-2cFZ_FB08UM-unsplash.jpg" alt="">
+        </div>
+        <div class="fadingSlides fade">
+            <img src="images\revolt-164_6wVEHfI-unsplash.jpg" alt="">
         </div>
 
-    </div>
+        <a class="prevSlide" onclick="nextImg(-1)">&#10094;</a>
+        <a class="nextSlide" onclick="nextImg(1)">&#10095;</a>
 
+    </div>
     <!-- dots below images -->
     <div class="imageDots">
-        <span class="dots"> </span>
-        <span class="dots"> </span>
-        <span class="dots"> </span>
-        <span class="dots"> </span>
-        <span class="dots"> </span>
-        <span class="dots"> </span>
-        <span class="dots"> </span>
+        <span class="dots" onclick="currentImg(1)"> </span>
+        <span class="dots" onclick="currentImg(2)"> </span>
+        <span class="dots" onclick="currentImg(3)"> </span>
+        <span class="dots" onclick="currentImg(4)"> </span>
+        <span class="dots" onclick="currentImg(5)"> </span>
+        <span class="dots" onclick="currentImg(6)"> </span>
+        <span class="dots" onclick="currentImg(7)"> </span>
     </div>
     <br>
       
@@ -70,10 +90,7 @@
 
     </div>
     <script src="app.js"></script>
-<<<<<<< Updated upstream
-=======
-    
->>>>>>> Stashed changes
+
   </body>
   <footer>Copyright &copy;</footer>
 </html>
