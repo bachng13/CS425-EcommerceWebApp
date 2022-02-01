@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b4d5918-39f2-4887-8425-46f1512957de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/html/php/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/php/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/php/db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/php/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/php/registration.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/php/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/php/login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +80,7 @@
       <updated>1638847334046</updated>
       <workItem from="1638847336001" duration="79000" />
       <workItem from="1638904998481" duration="4754000" />
+      <workItem from="1638922657313" duration="1037000" />
     </task>
     <servers />
   </component>
@@ -99,5 +97,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
